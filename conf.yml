@@ -1,0 +1,94 @@
+pageInfo:
+  title: DC Monitoring
+  description: Monitoring, network, security, production servers and storage
+
+appConfig:
+  defaultOpeningMethod: newtab
+
+sections:
+  - name: Monitoring
+    icon: fa-solid fa-chart-line
+    items:
+      - title: Nagios XI
+        description: Nagios XI monitoring
+        url: http://172.17.38.171/nagiosxi/
+        target: newtab
+
+      - title: PRTG Network
+        description: PRTG network monitoring
+        url: https://172.17.39.144/
+        target: newtab
+
+      - title: Schneider DCE
+        description: Schneider Data Center Expert
+        url: https://172.17.38.174
+        target: newtab
+
+  - name: Network & Security
+    icon: fa-solid fa-shield-halved
+    items:
+      - title: Peplink
+        description: Peplink management
+        url: https://172.17.51.249:8443/
+        target: newtab
+
+      - title: FortiGate
+        description: Fortinet firewall management
+        url: https://172.17.37.254
+        target: newtab
+
+      - title: Sangfor
+        description: Sangfor management
+        url: https://172.17.37.5/
+        target: newtab
+
+      - title: F5 BIG-IP WAF
+        description: F5 BIG-IP WAF primary unit
+        url: https://172.17.37.7/
+        target: newtab
+
+      - title: F5 WAF Secondary
+        description: F5 BIG-IP WAF secondary unit
+        url: https://172.17.37.8/
+        target: newtab
+
+  - name: Production Servers
+    icon: fa-solid fa-server
+    items:
+      - title: PRX-PROD-H01
+        description: iDRAC - 172.17.37.41
+        url: https://172.17.37.41
+        target: newtab
+
+      - title: PRX-PROD-H02
+        description: iDRAC - 172.17.37.42
+        url: https://172.17.37.42
+        target: newtab
+
+      - title: PRX-PROD-H03
+        description: iDRAC - 172.17.37.43
+        url: https://172.17.37.43
+        target: newtab
+
+      - title: PRX-PROD-H04
+        description: iDRAC - 172.17.37.44
+        url: https://172.17.37.44
+        target: newtab
+
+      - title: PRX-PROD-H05
+        description: iDRAC - 172.17.37.45
+        url: https://172.17.37.45
+        target: newtab
+
+      - title: PRX-PROD-H06
+        description: iDRAC - 172.17.37.46
+        url: https://172.17.37.46
+        target: newtab
+
+  - name: Storage
+    icon: fa-solid fa-database
+    items:
+      - title: Dell Unity 480
+        description: Dell Unity 480 storage management
+        url: https://172.17.37.20
+        target: newtab
